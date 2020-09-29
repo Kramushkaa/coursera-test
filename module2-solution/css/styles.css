@@ -3,7 +3,7 @@
   }
 
 @font-face {
-font-family: Alarus;
+font-family: A La Russ;
 src: url(fonts/Alarus.ttf); 
 }
 
@@ -13,7 +13,7 @@ src: url(fonts/Alarus.ttf);
 } */
 h1 {
     margin-bottom: 15px;
-    font-family: Alarus, 'Comic Sans MS', cursive;
+    font-family: A La Russ, 'Comic Sans MS', cursive;
     text-align: center;
     font-size: 40px;
     color: red;

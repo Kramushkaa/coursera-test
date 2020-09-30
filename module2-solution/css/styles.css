@@ -10,7 +10,7 @@ h1 {
     margin-bottom: 15px;
     font-family: "Alarus", 'Comic Sans MS', cursive;
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     color: red;
     /* text-shadow: whitesmoke 0 0 2px; */
 }
@@ -24,27 +24,28 @@ h1 {
     right:0;
     top:0;
     padding: 3px;
-    border-left: olive 3px solid;
-    border-bottom: olive 3px solid;
+    border-left:  black 1px solid;
+    border-bottom: black 1px solid;
     border-bottom-left-radius: 5px;
-    font-size: 24px;
+    font-family: "Alarus", 'Comic Sans MS', cursive;
+    font-size: 25px;
     font-weight: 600;
     color: #111111;
 } 
 
 #sn1{
-  background-color: yellow;
+  background-color: #fced58;
 }
 #sn2{
-  background-color: #FF8888;
+  background-color: #FFaaaa;
 }
 #sn3{
-  background-color: #88AAFF;
+  background-color: #72A9C7;
 }
 
 #skyline {
     width: 100%;
-    border:  rgb(216, 216, 7) 2px inset;
+    border:  #666666 1px inset;
 }
 
 div{
@@ -54,14 +55,16 @@ div{
 p{
     padding-bottom: 0;
     font-size: 20px;
+    font-weight: 500;
+    font-family: "Piazzolla", 'Times New Roman', serif;
 }
 
 .paragraph{
     padding: 20px 10px 0px 10px;
-    border: rgb(216, 216, 7) 5px outset;
+    border: black 1px solid;
     margin-bottom: 20px;
-    background-color:  darkgreen;
-    color: whitesmoke;
+    background-color:  #FEE5AC;
+    color: #333333;
 }
 
 @media (min-width: 992px) {
@@ -118,3 +121,8 @@ p{
   font-family: "Alarus";
   src: url(../fonts/Alarus.ttf); 
   }
+
+@font-face {
+  font-family: "Piazzolla";
+  src: url(../fonts/Piazzolla.ttf)
+}

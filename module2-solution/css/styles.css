@@ -24,16 +24,27 @@ h1 {
     right:0;
     top:0;
     padding: 3px;
-    background-color: skyblue;
     border-left: olive 3px solid;
     border-bottom: olive 3px solid;
     border-bottom-left-radius: 5px;
     font-size: 24px;
     font-weight: 600;
+    color: #111111;
 } 
+
+#sn1{
+  background-color: yellow;
+}
+#sn2{
+  background-color: #FF8888;
+}
+#sn3{
+  background-color: #88AAFF;
+}
 
 #skyline {
     width: 100%;
+    border:  rgb(216, 216, 7) 2px inset;
 }
 
 div{
@@ -45,10 +56,12 @@ p{
     font-size: 20px;
 }
 
-#paragraph1, #paragraph2, #paragraph3{
+.paragraph{
     padding: 20px 10px 0px 10px;
     border: rgb(216, 216, 7) 5px outset;
     margin-bottom: 20px;
+    background-color:  darkgreen;
+    color: whitesmoke;
 }
 
 @media (min-width: 992px) {

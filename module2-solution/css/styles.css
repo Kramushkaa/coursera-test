@@ -2,18 +2,13 @@
     box-sizing: border-box;
   }
 
-@font-face {
-font-family: A La Russ;
-src: url(fonts/Alarus.ttf); 
-}
-
 /* body{
     background: skyblue;
 
 } */
 h1 {
     margin-bottom: 15px;
-    font-family: A La Russ, 'Comic Sans MS', cursive;
+    font-family: "Alarus", 'Comic Sans MS', cursive;
     text-align: center;
     font-size: 40px;
     color: red;
@@ -105,3 +100,8 @@ p{
       width: 100%;
     }
 }
+
+@font-face {
+  font-family: "Alarus";
+  src: url(../fonts/Alarus.ttf); 
+  }

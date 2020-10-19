@@ -1,0 +1,49 @@
+body{
+    background-color: #9E2525;    
+}
+
+#header-nav{
+    background-color: #AEB4A9;
+    border-radius: 0;
+    border: 0px;
+    color: #6F4E37;
+}
+
+#logo-img{
+    background: url("../images/logo_notext.png") no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1{
+    font-family: "Poppins", serif;
+    color: #9E2525;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+
+/* .container{
+    background-color: #E0C1B3;
+} */
+
+/* 
+#B22222 - brick
+#6F4E37 - coffee
+#D89A9E - розоватый
+#AEB4A9 - болотный
+#E0C1B3 - пенка
+ */

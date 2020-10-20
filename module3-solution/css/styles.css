@@ -85,6 +85,44 @@ border: 1px solid #9E2525;
     box-shadow: 0 0 50px #6e0505;
     border: 2px solid #6e0505;
 }
+
+
+#menu-tile, #events-tile, #map-tile{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #6e0505;
+    overflow: hidden;
+}
+
+#menu-tile:hover, #events-tile:hover, #map-tile:hover{
+    box-shadow: 0 1px 5px #E7E7E7;
+}
+
+#menu-tile{
+    background: url(../images/capuccino.jpg) no-repeat;
+    background-position: center;
+}
+
+#events-tile{
+    background: url(../images/event.jpg) no-repeat;
+    background-position: center;
+}
+
+#menu-tile span, #events-tile span, #map-tile span{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #D0C5B3;
+    color: #9E2525;
+    opacity: .8;
+}
 @media (min-width: 1200px){
     .container .jumbotron {
         background: url(../images/jumbotron_tower1_1200.jpeg) no-repeat;
@@ -106,7 +144,7 @@ border: 1px solid #9E2525;
 @media (min-width: 768px) and (max-width: 991px){
     .container .jumbotron {
         background: url(../images/jumbotron_tower1_768.jpeg) no-repeat;
-        height:662px;
+        height:512px;
     }
 
 }

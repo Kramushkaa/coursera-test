@@ -81,6 +81,31 @@ border: 1px solid #9E2525;
     margin-right: 5px;
 }
 
+@media (min-width: 1200px){
+    .container .jumbotron {
+        background: url(../images/jumbotron_tower1_1200.jpeg) no-repeat;
+        height:800px;
+        box-shadow: 0 0 50px #6e0505;
+        border: 2px solid #6e0505;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .container .jumbotron {
+        background: url(../images/jumbotron_tower1_992.jpg) no-repeat;
+        height:800px;
+        box-shadow: 0 0 50px #6e0505;
+        border: 2px solid #6e0505;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .container .jumbotron {
+        background: url(../images/jumbotron_tower1_768.jpg) no-repeat;
+        height:800px;
+        box-shadow: 0 0 50px #6e0505;
+        border: 2px solid #6e0505;
+}
+
 @media (max-width: 767px){
 
     .navbar-brand{

@@ -13,7 +13,7 @@ body{
     background: url("../images/logo_notext.png") no-repeat;
     width: 150px;
     height: 150px;
-    margin: 10px 15px 10px 0;
+    margin: 10px 15px 0 0;
 }
 
 .navbar-brand {
@@ -122,6 +122,10 @@ border: 1px solid #9E2525;
     background-color: #D0C5B3;
     color: #9E2525;
     opacity: .8;
+}
+
+#map-tile span {
+    opacity: 1;
 }
 @media (min-width: 1200px){
     .container .jumbotron {

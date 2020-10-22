@@ -173,16 +173,16 @@ hr {
         background: url(../images/jumbotron_tower1_992.jpg) no-repeat;
         height:662px;
     }
-    
-        #nav-list {
-            margin-top: -80px;
-        }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px){
     .container .jumbotron {
         background: url(../images/jumbotron_tower1_768.jpeg) no-repeat;
         height:512px;
+    }
+    #nav-list {
+       margin-top: -80px;
     }
 
 }

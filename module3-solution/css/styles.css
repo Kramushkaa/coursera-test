@@ -127,6 +127,18 @@ border: 1px solid #9E2525;
 #map-tile span {
     opacity: 1;
 }
+
+.panel-footer {
+    background-color: #413422;
+    color: #D0C5B3;
+}
+
+.panel-footer a span {
+    color: #9E2525;
+    text-shadow: 1px 1px 1px #D0C5B3;
+}
+
+
 @media (min-width: 1200px){
     .container .jumbotron {
         background: url(../images/jumbotron_tower1_1200.jpeg) no-repeat;

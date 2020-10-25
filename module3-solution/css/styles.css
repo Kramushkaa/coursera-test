@@ -7,6 +7,7 @@ body{
     border-radius: 0;
     border: 0px;
     color: #6F4E37;
+    border-bottom: 2px solid #413422;
 }
 
 #logo-img{
@@ -93,6 +94,7 @@ border: 1px solid #9E2525;
     margin-bottom: 15px;
     position: relative;
     border: 2px solid #6e0505;
+    border-radius: 5px;
     overflow: hidden;
 }
 

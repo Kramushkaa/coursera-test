@@ -1,225 +1,128 @@
-body{
-    background-color: #9E2525;    
-}
+* {
+    box-sizing: border-box;
+  }
 
-#header-nav{
-    background-color:#D0C5B3;
-    border-radius: 0;
-    border: 0px;
-    color: #6F4E37;
-    border-bottom: 2px solid #413422;
-}
+/* body{
+    background: skyblue;
 
-#logo-img{
-    background: url("../images/logo_notext.png") no-repeat;
-    width: 150px;
-    height: 150px;
-    margin: 10px 15px 0 0;
-}
-
-.navbar-brand {
-    padding-top: 25px;
-}
-
-.navbar-brand h1{
-    font-family: "Poppins", serif;
-    color: #9E2525;
-    font-size: 2em;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 1px #222;
-    margin-top: 0;
-    line-height: .75;
-}
-
-.navbar-brand a:hover, .navbar-brand a:focus {
-    text-decoration: none;
-}
-
-#nav-list {
-    margin-top: 15px;
-}
-
-#nav-list a {
-    color: #9E2525;
-    text-align: center;
-}
-
-#nav-list a:hover {
-    background: #E7E7E7;
-}
-
-#nav-list a span {
-    font-size: 1.8em;
-}
-
-#phone {
-    margin-top: 5px;
-}
-
-#phone a {
-    text-align: right;
-    font-family: "Poppins", serif;
-    font-size: .75em;
-}
-
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
-border: 1px solid #9E2525;
-
-}
-
-.navbar-header button.navbar-toggle {
-    clear: both;
-    margin-top: -30px;
-}
-
-#collapsable-nav a {
-    font-size: 1.4em;
-}
-
-#collapsable-nav a span{
-    font-size: 1em;
-    margin-right: 5px;
-}
-
-.container .jumbotron{
-    box-shadow: 0 0 50px #6e0505;
-    border: 2px solid #6e0505;
-}
-
-
-#menu-tile, #events-tile, #map-tile{
-    height: 250px;
-    width: 100%;
-    margin-bottom: 15px;
-    position: relative;
-    border: 2px solid #6e0505;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-#menu-tile:hover, #events-tile:hover, #map-tile:hover{
-    box-shadow: 0 1px 5px #E7E7E7;
-}
-
-#menu-tile{
-    background: url(../images/capuccino.jpg) no-repeat;
-    background-position: center;
-}
-
-#events-tile{
-    background: url(../images/event.jpg) no-repeat;
-    background-position: center;
-}
-
-#menu-tile span, #events-tile span, #map-tile span{
-    position: absolute;
-    bottom: 0;
-    right:0;
-    width: 100%;
-    text-align: center;
-    font-size: 1.6em;
-    font-weight: 600;
-    text-transform: uppercase;
-    background-color: #D0C5B3;
-    color: #9E2525;
-    opacity: .8;
-}
-
-#map-tile span {
-    opacity: 1;
-}
-
-.panel-footer {
-    margin-top: 30px;
-    padding-top: 35px;
-    padding-bottom: 30px;
-    background-color: #413422;
-    color: #D0C5B3;
-    border-top: 2px solid #D0C5B3;
-}
-
-.panel-footer a span {
-    color: #B46F0A;
-    white-space: nowrap;
-}
-.panel-footer a span:hover {
-    color: #B46F0A;
-    text-decoration: underline;
-}
-.panel-footer a span:visited {
-    color: #B46F0A;
-    text-decoration: none;
-}
-.panel-footer section {
-    line-height: 1.8;
-}
-.panel-footer div.row {
-    margin-bottom: 45px;
-}
-
-hr {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-@media (min-width: 1200px){
-    .container .jumbotron {
-        background: url(../images/jumbotron_tower1_1200.jpeg) no-repeat;
-        height:800px;
-    }
-}
-
-@media (min-width: 992px) and (max-width: 1199px){
-    .container .jumbotron {
-        background: url(../images/jumbotron_tower1_992.jpg) no-repeat;
-        height:662px;
-    }
-
-}
-
-@media (min-width: 768px) and (max-width: 991px){
-    .container .jumbotron {
-        background: url(../images/jumbotron_tower1_768.jpeg) no-repeat;
-        height:512px;
-    }
-    #nav-list {
-       margin-top: -80px;
-    }
-
-}
-
-@media (max-width: 767px){
-
-    .navbar-brand{
-        padding-top: 10px;
-    }
-    
-    .navbar-brand h1 {
-        font-size: 7vw;
-    }
-
-    .container .jumbotron {
-        padding: 0;
-    }
-
-    .panel-footer section {
-        text-align: center;
-    }
-
-    .panel-footer section hr {
-        width: 30%;
-        color: #D0C5B3
-    }
-}
-/* .container{
-    background-color: #E0C1B3;
 } */
+.navbar-brand h1 {
+    margin-bottom: 15px;
+    font-family: "Alarus", 'Comic Sans MS', cursive;
+    text-align: center;
+    font-size: 35px;
+    color: red;
+    /* text-shadow: whitesmoke 0 0 2px; */
+}
 
-/* 
-#B22222 - brick
-#6F4E37 - coffee
-#D89A9E - розоватый
-#AEB4A9 - болотный
-#E0C1B3 - пенка
- */
+.clearfix{
+    clear: both;
+}
+
+.site_name{
+    position: absolute;
+    right:0;
+    top:0;
+    padding: 3px;
+    border-left:  black 1px solid;
+    border-bottom: black 1px solid;
+    border-bottom-left-radius: 5px;
+    font-family: "Alarus", 'Comic Sans MS', cursive;
+    font-size: 25px;
+    font-weight: 600;
+    color: #111111;
+} 
+
+#sn1{
+  background-color: #fced58;
+}
+#sn2{
+  background-color: #FFaaaa;
+}
+#sn3{
+  background-color: #72A9C7;
+}
+
+#skyline {
+    width: 100%;
+    border:  #666666 1px inset;
+}
+
+div{
+    position: relative;
+} 
+
+p{
+    padding-bottom: 0;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Piazzolla", 'Times New Roman', serif;
+}
+
+.paragraph{
+    padding: 20px 10px 0px 10px;
+    border: black 1px solid;
+    margin-bottom: 20px;
+    background-color:  #FEE5AC;
+    color: #333333;
+}
+
+@media (min-width: 992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-6, .col-lg-12 {
+    padding: 0 10px 0 10px;
+    float: left;
+    }
+    .col-lg-1 {
+      width: 8.33%;
+    }
+    .col-lg-2 {
+      width: 16.66%;
+    }
+    .col-lg-3 {
+      width: 25%;
+    }
+    .col-lg-4 {
+      width: 33.33%;
+    }
+    .col-lg-6 {
+      width: 50%;
+    }
+    .col-lg-12 {
+      width: 100%;
+    }
+}
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-6,.col-md-12 {
+        padding: 0 10px 0 10px;
+      float: left;
+    }
+    .col-md-1 {
+        width: 8.33%;
+    }
+    .col-md-2 {
+      width: 16.66%;
+    }
+    .col-md-3 {
+      width: 25%;
+    }
+    .col-md-4 {
+      width: 33.33%;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-12 {
+      width: 100%;
+    }
+}
+
+@font-face {
+  font-family: "Alarus";
+  src: url(../fonts/Alarus.ttf); 
+  }
+
+@font-face {
+  font-family: "Piazzolla";
+  src: url(../fonts/Piazzolla.ttf)
+}

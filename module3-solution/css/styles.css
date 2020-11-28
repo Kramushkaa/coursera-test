@@ -1,9 +1,36 @@
 @font-face {
-  font-family: "Alarus";
-  src: url(../fonts/Alarus.ttf); 
-  }
-
-@font-face {
   font-family: "Piazzolla";
   src: url(../fonts/Piazzolla.ttf)
 }
+
+#longtext{
+  height: 1000px;
+  border-radius: 20px;
+}
+
+#header-nav{
+  background-color: burlywood;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+}
+.navbar-brand h1{
+  font-size: 1.5 em;
+  margin-top: 0;
+  padding-bottom: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  #header-nav{
+    height:70px
+  }
+  }

@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Coffee-tower</title>
+        <link rel="shortcut icon" href="images/logo_notext.png" type="image/x-icon">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
@@ -30,16 +31,20 @@
                 </div>
                 <div id="collapsable-nav" class="collapse navbar-collapse">
                     <ul id="nav-list" class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#" onclick="$dc.loadMenuCategories();">
+                        <li id="navHomeButton" class="visible-xs active">
+                            <a href="index.html">
+                                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> На главную </a>
+                        </li>
+                        <li id="navMenuButton">
+                            <a href="#" onclick="$ct.loadMenu();">
                                 <span class="glyphicon glyphicon-tower"></span><br class="hidden-xs"> Кофе </a>
                         </li>
                         <li>
-                            <a href="#" onclick="$dc.loadGalery();">
+                            <a href="#" onclick="$ct.loadGalery();">
                                 <span class="glyphicon glyphicon-picture"></span><br class="hidden-xs"> Галерея </a>
                         </li>
                         <li>
-                            <a href="#" onclick="$dc.loadEvents();">
+                            <a href="#" onclick="$ct.loadEvents();">
                                 <span class="glyphicon glyphicon-calendar"></span><br class="hidden-xs"> События </a>
                         </li>
                         <li id="phone" class="hidden-xs"><a href="tel:+77777777777"><span>+7(777)777-77-77</span></a></li>
